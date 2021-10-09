@@ -1,0 +1,11 @@
+DC_Store
+.AppleDouble
+.LSOverride
+.vs
+
+app/*.html
+*.log
+node_modules/
+app/css/
+package-lock.json
+app/js/libs.min.js
