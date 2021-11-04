@@ -2,14 +2,16 @@ doctype html
 html(lang="en")
     head
         meta(charset="UTF-8")
-        meta(http-equiv="X-UA-Compatible", content="IE=edge")
-        meta(name="viewport", content="width=device-width, heigh=device-heigh, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="height=device-heigh, initial-scale=1.0")
         title Lime Stream
-        link(rel="stylesheet", href="./css/libs.min.css")
-        link(rel="stylesheet", href="./css/style.min.css")
+        link(rel="stylesheet" href="./css/libs.min.css")
+        link(rel="stylesheet" href="./css/style.min.css")
     body 
         .rightScroll 
             include ./pug/main-page.pug
+            include ./pug/we-do.pug
+            include ./pug/stream.pug
 
         script(src="./js/libs.min.js") 
         script(src="./js/main.js") 
